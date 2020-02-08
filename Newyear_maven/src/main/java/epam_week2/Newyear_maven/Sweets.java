@@ -1,6 +1,6 @@
 package epam_week2.Newyear_maven;
 
-public class Sweets extends Abstract_method
+public class Sweets extends Abstract
 {
 	public int totalweight(int [] choco,int c)
 	{

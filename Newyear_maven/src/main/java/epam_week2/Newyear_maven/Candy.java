@@ -10,7 +10,7 @@ public class Candy
 	int[] choco=new int[c];
 	for(int i=0;i<c;i++)
 	{
-		System.out.print("Enter the weight "+(i+1)+" chocolate:");
+		System.out.print("Enter the weight of "+(i+1)+" chocolate:");
 		choco[i]=sc.nextInt();
 	}
 	Chocolates c1=new Chocolates();
@@ -20,7 +20,7 @@ public class Candy
 	int[] sweet=new int[s];
 	for(int i=0;i<s;i++)
 	{
-		System.out.print("Enter the weight "+(i+1)+" sweet:");
+		System.out.print("Enter the weight of "+(i+1)+" sweet:");
 		sweet[i]=sc.nextInt();
 	}
 	Sweets s1=new Sweets();
